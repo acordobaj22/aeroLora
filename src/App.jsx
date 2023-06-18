@@ -11,8 +11,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Chart from './components/Card/Card'
 import SideContent from './components/SideContent/SideContent'
-import List from './components/List/List'
-import Bar from './components/Bar/Bar'
 
 ChartJS.register(LineElement,CategoryScale,LinearScale, PointElement, TimeScale)
 
