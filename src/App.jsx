@@ -3,7 +3,7 @@ import { connect, useDispatch, useSelector } from 'react-redux'
 import { connectws, sendws } from './Redux/actions'
 import { Chart as ChartJS, LineElement, PointElement,  CategoryScale, LinearScale,TimeScale} from 'chart.js'
 
-import logo from './src/assets/Logo_uninorte.jpg'
+// import logo from './src/assets/Logo_uninorte.jpg'
 import {Line} from 'react-chartjs-2'
 import {parseISO} from 'date-fns'
 import reactLogo from './assets/react.svg'
@@ -27,7 +27,7 @@ function App() {
       <div className='cards'>
       <h2>Dashboard de energias renovables</h2>
       <img src='https://tenor.com/es/view/ypf-energia-energy-energiaquenosune-aerogenerador-gif-14099853.gif' style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100px" }}/>
-      <img src={logo} className='img'/>
+      {/* <img src={logo} className='img'/> */}
       </div>
       <div className='sidebar'>
         <SideContent/> 
